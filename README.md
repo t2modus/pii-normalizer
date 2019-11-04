@@ -1,15 +1,13 @@
-# Pii::Normalizer
+# PII::Normalizer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pii/normalizer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is used to normalize pii like names, phones, emails, and addresses.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pii-normalizer'
+gem 'pii_normalizer'
 ```
 
 And then execute:

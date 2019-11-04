@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pii/normalizer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'pii-normalizer'
+  spec.name          = 'pii_normalizer'
   spec.version       = PII::Normalizer::VERSION
   spec.authors       = ['Andrew Stephenson']
   spec.email         = ['Andrew.Stephenson123@gmail.com']
