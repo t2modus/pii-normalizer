@@ -12,7 +12,7 @@ module PII
       ADDRESS_SUBSTITUTION = /#{NORMALIZED_ABBREVIATIONS.keys.join('|')}/i.freeze
 
       def normalize_address(address)
-        address&.downcase&.gsub(ADDRESS_SUBSTITUTION) { |m| NORMALIZED_ABBREVIATIONS.fetch(m, m) }
+        address&.downcase&.gsub(ADDRESS_SUBSTITUTION) { |m| NORMALIZED_ABBREVIATIONS.fetch(m, m) }&.split&.join(' ')
       end
 
       # removes non-numeric chars then gets first 5 chars
